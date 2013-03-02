@@ -1,0 +1,2 @@
+{"ts":1362256342516,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"package x.n.a;\r\n"]],"start1":0,"start2":0,"length1":0,"length2":16}]],"length":16}
+{"contributors":[],"silentsave":false,"ts":1362256355001,"patch":[[{"diffs":[[0,"x.n.a;\r\n"],[1,"c"]],"start1":8,"start2":8,"length1":8,"length2":9}]],"length":17,"saved":false}
