@@ -52,3 +52,7 @@ Buildfile: /home/sirvon/Dropbox/A/APP/ANDROID/non-eclipse/MEZNCHACH/build.xml
 
 -compile:
     [javac] Compiling 4 source files to /home/sirvon/Dropbox/A/APP/ANDROID/non-eclipse/MEZNCHACH/bin/classes
+    [javac] /home/sirvon/Dropbox/A/APP/ANDROID/non-eclipse/MEZNCHACH/src/x/n/a/SplashActivity.java:1: error: reached end of file while parsing
+    [javac] package x.n.a
+    [javac]              ^
+    [javac] 1 error
