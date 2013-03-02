@@ -1,1 +1,54 @@
 Buildfile: /home/sirvon/Dropbox/A/APP/ANDROID/non-eclipse/MEZNCHACH/build.xml
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+     [echo] proguard.config is ${proguard.config}
+
+-pre-build:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 21.1.0
+ [checkenv] Installed at /home/sirvon/Dropbox/A/TOOLS/AndroidSDK
+
+-setup:
+     [echo] Project Name: MeznChach
+  [gettype] Project Type: Application
+
+-build-setup:
+     [echo] Resolving Build Target for MeznChach...
+[gettarget] Project Target:   Google APIs
+[gettarget] Vendor:           Google Inc.
+[gettarget] Platform Version: 4.2.2
+[gettarget] API level:        17
+[gettarget] WARNING: No minSdkVersion value set. Application will install on all Android versions.
+     [echo] ----------
+     [echo] Creating output directories if needed...
+     [echo] ----------
+     [echo] Resolving Dependencies for MeznChach...
+[dependency] Library dependencies:
+[dependency] No Libraries
+     [echo] ----------
+     [echo] Building Libraries with 'release'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] No changes in the AndroidManifest files.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+[renderscript] No RenderScript files to compile.
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] No changed resources. R.java and Manifest.java untouched.
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 4 source files to /home/sirvon/Dropbox/A/APP/ANDROID/non-eclipse/MEZNCHACH/bin/classes
